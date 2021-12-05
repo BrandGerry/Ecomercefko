@@ -1,0 +1,22 @@
+header{
+    background-color: #1193CD;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    color: black;
+}
+
+.logo{
+    width: 15%;
+}
+
+@media only screen and (min-width:992px){
+    header{
+        justify-content: space-between;
+    }
+}

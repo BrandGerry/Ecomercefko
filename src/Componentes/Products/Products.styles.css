@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Productosos{
+    width: 173px;
+    height: 230px;
+}
+
+.main-card{
+    margin: 3rem;
+    padding: 1rem;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(248, 248, 248);
+    border-radius: 1rem;
+    box-shadow: 20px 20px 26px -19px rgba(117,116,116,0.3);    
+}
+
+
+p{
+    padding: .5rem;
+}
+
+.prod-name{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.btn-add{
+    margin: .5rem;
+    padding: .5rem;
+    background-color: rgb(127, 162, 185);
+    border-style: none;
+    width: 90%;
+    border-radius: 10px;
+
+    color: black;
+}
+
+.btn-add:active{
+    background-color: rgb(84, 131, 115);
+}
+
+.btn-add:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+@media only screen and (min-width:992px){
+    .main-card {
+        width: 20%;
+        margin: .5rem;
+    }
+}
